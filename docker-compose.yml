@@ -5,8 +5,8 @@ services:
       dockerfile: docker/linux/Dockerfile
       context: .
     volumes:
-      - ./app/:/home/rust/src
-    working_dir: /home/rust/src
+      - ./Projects/:/root/Projects
+    working_dir: /root/Projects
     entrypoint:
         - /bin/bash
         # - docker/entrypoint.sh
