@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mipsel-openwrt-linux-musl:
+    build:
+      dockerfile: docker/linux/Dockerfile
+      context: .
+    volumes:
+      - ./app/:/home/rust/src
+    working_dir: /home/rust/src
+    entrypoint:
+        - /bin/bash
+        # - docker/entrypoint.sh
