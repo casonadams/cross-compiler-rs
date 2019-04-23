@@ -2,7 +2,7 @@ version: '3'
 services:
   mipsel-openwrt-linux-musl:
     build:
-      dockerfile: docker/linux/Dockerfile
+      dockerfile: docker/openwrt/Dockerfile
       context: .
     volumes:
       - ./Projects/:/root/Projects
