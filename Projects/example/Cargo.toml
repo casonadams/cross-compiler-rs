@@ -1,0 +1,13 @@
+[package]
+name = "example"
+version = "0.1.0"
+authors = ["Author <author@email.com>"]
+edition = "2018"
+
+[dependencies]
+influx_db_client = "^0.3.6"
+openssl-probe = "0.1.2"
+pkg-config = "^0.3.14"
+
+# [patch.crates-io]
+# rust-openssl = { path = "/root/Projects/rust-openssl" }
