@@ -6,6 +6,6 @@ services:
       context: .
     volumes:
       - ./Projects/:/root/Projects
-    working_dir: /tmp
+    working_dir: /root/Projects
     entrypoint:
         - /bin/bash

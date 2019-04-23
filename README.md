@@ -66,4 +66,5 @@ docker-compose run lede
 ```bash
 cd ~/Projects/example
 cargo build --release --target=mipsel-unknown-linux-musl
+mipsel-openwrt-linux-strip target/mipsel-unknown-linux-musl/release/<bin_file>
 ```
