@@ -42,15 +42,15 @@ VCEI exceptions         : not available
 
 ## Clone Repo
 ```bash
-git clone https://github.com/casonadams/docker-rust-mipsel-openwrt-linux-musl.git
+git clone https://github.com/casonadams/cross-compiler-rs.git
 ```
 
 ## Usage
 ### Build base images
 Buid base image
 ```bash
-cd docker-rust-mipsel-openwrt-linux-musl
-docker-compose build mipsel-openwrt-linux-musl
+cd cross-compiler-rs
+docker-compose build lede
 ```
 ### Copy source to Projects
 * Repos can be cloned here
@@ -59,7 +59,7 @@ docker-compose build mipsel-openwrt-linux-musl
 ### Start container
 Start docker to build rust application
 ```bash
-docker-compose run mipsel-openwrt-linux-musl
+docker-compose run lede
 ```
 
 ### Build rust application for mipsel musl
