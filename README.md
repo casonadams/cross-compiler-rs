@@ -1,5 +1,5 @@
-# docker-rust-env
-Simple docker container for compiling rust applications
+# mipsel-openwrt-linux-musl
+Simple docker container for compiling rust applications using mipsel-openwrt-linux-musl compiler
 
 ## Install docker and docker-compose
 [Docker Docs](https://docs.docker.com/)
