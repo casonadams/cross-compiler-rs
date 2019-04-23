@@ -54,6 +54,7 @@ docker-compose build mipsel-openwrt-linux-musl
 ```
 ### Copy source to Projects
 * Repos can be cloned here
+* Projects dir is a shared volume so any editor can be used to edit the code.  Then run the docker container to build when ready.
 
 ### Start container
 Start docker to build rust application
