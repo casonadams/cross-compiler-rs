@@ -1,12 +1,11 @@
 version: '3'
 services:
-  mipsel-openwrt-linux-musl:
+  lede:
     build:
       dockerfile: docker/openwrt/Dockerfile
       context: .
     volumes:
       - ./Projects/:/root/Projects
-    working_dir: /root/Projects
+    working_dir: /tmp
     entrypoint:
         - /bin/bash
-        # - docker/entrypoint.sh

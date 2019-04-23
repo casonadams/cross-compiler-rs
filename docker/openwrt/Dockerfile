@@ -26,8 +26,6 @@ ARG OPENSSL_VERSION="1_0_2q"
 RUN apt-get update && \
   apt-get install -y \
   curl \
-  git \
-  neovim \
   pkg-config \
   wget \
   xz-utils
