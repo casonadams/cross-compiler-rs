@@ -42,13 +42,14 @@ VCEI exceptions         : not available
 
 ## Clone Repo
 ```bash
-git clone https://github.com/casonadams/docker-rust-env.git
+git clone https://github.com/casonadams/docker-rust-mipsel-openwrt-linux-musl.git
 ```
 
 ## Usage
 ### Build base images
 Buid base image
 ```bash
+cd docker-rust-mipsel-openwrt-linux-musl
 docker-compose build mipsel-openwrt-linux-musl
 ```
 ### Copy source to Projects
