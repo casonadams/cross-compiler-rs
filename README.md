@@ -1,4 +1,4 @@
-# mipsel-openwrt-linux-musl
+# docker-rust-mipsel-openwrt-linux-musl
 Simple docker container for compiling rust applications using mipsel-openwrt-linux-musl compiler
 
 ## Support for openwrt build
