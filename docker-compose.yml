@@ -9,3 +9,12 @@ services:
     working_dir: /root/Projects
     entrypoint:
         - /bin/bash
+  arm7:
+    build:
+      dockerfile: docker/arm7/Dockerfile
+      context: .
+    volumes:
+      - ./Projects/:/root/Projects
+    working_dir: /root/Projects
+    entrypoint:
+        - /bin/bash
