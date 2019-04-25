@@ -4,7 +4,7 @@ ARG GCC_VERSION="arm-linux-gnueabihf-gcc-7"
 
 # Rust ARGS
 ARG RUST_VERSION=stable
-ARG TARGET="armv7-unknown-linux-gnueabihf"
+ENV TARGET="armv7-unknown-linux-gnueabihf"
 ARG LINKER="arm-linux-gnueabihf-gcc-7"
 
 # Zlib ARGS

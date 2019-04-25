@@ -7,7 +7,7 @@ ARG GCC_VERSION="5.4.0_musl-1.1.16"
 
 # Rust ARGS
 ARG RUST_VERSION=stable
-ARG TARGET="mipsel-unknown-linux-musl"
+ENV TARGET="mipsel-unknown-linux-musl"
 
 # This is the complier from openwrt SDK
 ARG LINKER="mipsel-openwrt-linux-musl-gcc-5.4.0"
